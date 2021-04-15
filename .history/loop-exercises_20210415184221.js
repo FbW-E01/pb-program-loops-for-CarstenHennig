@@ -129,20 +129,16 @@ for (restartNumber = 0; restartNumber <= 3; restartNumber++) {
 // 8. **isPalindrome.**
 // Write a program to check whether a word is a palindrome or not.
 // Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
-let palindrome = "Ebbe"; // testing several words
-let compareWord = palindrome.toLowerCase(); // converting to lower cases
+let palindrome = "Ebbe";
+let compareWord = palindrome.toLowerCase();
 console.log(compareWord);
-let compareSplitted = compareWord.split(""); // splitting string into letters
+let compareSplitted = compareWord.split("");
 console.log(compareSplitted);
-let reverseString = compareSplitted.reverse(); // reversing letters
+let reverseString = compareSplitted.reverse();
 console.log(reverseString);
-let finishedString = reverseString.join(""); // putting reversed letters to a string
+let finishedString = reverseString.join("");
 console.log(finishedString);
-
-// checking if initially given string is equal to reversed
-checkStrings = palindrome == finishedString;
-console.log(checkStrings);
-if (checkStrings) {
+if (palindrome === finishedString) {
   console.log("Yes, " + palindrome + " is a palindrome!");
 } else {
   console.log("No, " + palindrome + " is not a palindrome!");

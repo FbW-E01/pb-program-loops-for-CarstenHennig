@@ -140,7 +140,7 @@ let finishedString = reverseString.join(""); // putting reversed letters to a st
 console.log(finishedString);
 
 // checking if initially given string is equal to reversed
-checkStrings = palindrome == finishedString;
+checkStrings = palindrome === finishedString;
 console.log(checkStrings);
 if (checkStrings) {
   console.log("Yes, " + palindrome + " is a palindrome!");
