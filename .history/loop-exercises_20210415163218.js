@@ -85,55 +85,23 @@ console.log(sum);
 // 7. Write programs that produce the following outputs:
 // >100 200 300 400 500 600 700 800 900
 let g;
-for (let g = 1; g < 10; g++) {
-  console.log(g * 100);
+let h;
+for (let g = 100; g < 1000; ) {
+  h = g + 100;
+  console.log(h);
 }
 
 // >
 // >0 2 4 6 8 10
-let myNum;
-for (myNum = 0; myNum <= 5; myNum++) {
-  console.log(myNum * 2);
-}
-
 // >
 // >3 6 9 12 15
-for (let myIterate = 1; myIterate <= 5; myIterate++) {
-  console.log(myIterate * 3);
-}
-
 // >
 // >9 8 7 6 5 4 3 2 1 0
-let myCountdown;
-for (myCountdown = 9; myCountdown >= 0; myCountdown--) {
-  console.log(myCountdown);
-}
-
 // >
 // >1 1 1 2 2 2 3 3 3 4 4 4
-let resumeNumber;
-for (resumeNumber = 1; resumeNumber <= 4; resumeNumber++) {
-  console.log(resumeNumber);
-  console.log(resumeNumber);
-  console.log(resumeNumber);
-}
 // >
 // >0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
-let restartNumber;
-for (restartNumber = 0; restartNumber <= 3; restartNumber++) {
-  for (iterateNumber = 0; iterateNumber <= 4; iterateNumber++) {
-    console.log(iterateNumber);
-  }
-}
 
 // 8. **isPalindrome.**
 // Write a program to check whether a word is a palindrome or not.
 // Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
-let palindrome = "Ebbe";
-let compareWord = palindrome.toLowerCase();
-console.log(compareWord);
-let compareReversed = compareWord.split("").reverse.join("");
-console.log(compareReversed);
-// if (palindrome === compareWord.reverse()) {
-//   console.log("Yes, " + palindrome + " is a palindrome!");
-// }

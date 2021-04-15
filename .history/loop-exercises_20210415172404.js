@@ -132,8 +132,6 @@ for (restartNumber = 0; restartNumber <= 3; restartNumber++) {
 let palindrome = "Ebbe";
 let compareWord = palindrome.toLowerCase();
 console.log(compareWord);
-let compareReversed = compareWord.split("").reverse.join("");
-console.log(compareReversed);
-// if (palindrome === compareWord.reverse()) {
-//   console.log("Yes, " + palindrome + " is a palindrome!");
-// }
+if (palindrome === compareWord.reverse()) {
+  console.log("Yes, " + palindrome + " is a plandrome!");
+}
